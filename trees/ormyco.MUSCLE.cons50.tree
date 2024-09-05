@@ -1,0 +1,168 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=66;
+	taxlabels
+	'GACI01002316.1_TSA'
+	'GACI01004785.1_TSA'
+	'GAGW01007749.1_TSA'
+	'GAIR01011407.1_TSA'
+	'GBHO01039923.1_ciliate'
+	'GBNA01013951.1'
+	'GBTA01002218.1'
+	'GBTA01054149.1'
+	'GDXN01051862.1'
+	'GEYJ01092710.1'
+	'GFJG01059483.1'
+	'GFVP01007274.1_TSA'
+	'GFZV01012939.1_TSA'
+	'GGIK01050282.1_TSA'
+	'GHEC01009306.1_TSA'
+	'GHZM01086934.1'
+	'GHZM01115244.1'
+	'GHZM01131186.1'
+	'GHZM01206470.1'
+	'GHZM01445935.1'
+	'GIAM01545236.1'
+	'GKFO01000268.1'
+	'HBDP01107766.1'
+	ND_070387
+	ND_128456
+	ND_136158
+	ND_141048
+	ND_230249
+	ND_401447
+	ND_408890
+	SRR10448860_k141_2981_pk3
+	USW07195
+	USW07197
+	USW07198
+	USW07199
+	USW07200
+	USW07202
+	USW07204
+	USW07206
+	USW07207
+	USW07208
+	USW07209
+	USW07210
+	UYL94578
+	WGH72997
+	WPV08068
+	WPV08070
+	WWB00173
+	WYW91238
+	WZH62088
+	WZH63115
+	WZL61394_Kasler_Point_virus
+	WZL61396_Wildcat_Canyon_virus
+	XAX95850
+	XAX95852
+	XCO56025
+	XDO01613
+	XDO01615
+	XDO01617
+	XDO01619
+	XDO01621
+	XDO01623
+	XDO01625
+	XDO01627
+	XDO01629
+	'k79_16623_flag1_multi111.0000_len3203_ERR9846877'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (XDO01629:0.449364,((((((((((XDO01627:1.129675,(('HBDP01107766.1':0.742637,'GKFO01000268.1':1.400687)[&label="64.6/54"]:0.128118,SRR10448860_k141_2981_pk3:0.959403)[&label="60.9/60"]:0.175725)[&label="96/86"]:0.174796,(('GHZM01445935.1':0.373737,'GHZM01086934.1':0.448111)[&label="100/100"]:0.81068,(USW07195:0.602497,(UYL94578:0.013951,USW07200:0.003118)[&label="100/100"]:0.550038)[&label="98.5/100"]:0.224301)[&label="41.4/65"]:0.112035)[&label="96.5/90"]:0.217844,'GIAM01545236.1':1.3892)[&label="95/92"]:0.252215,(((((((ND_408890:0.428859,(WPV08070:0.456393,USW07202:0.394645)[&label="87.1/68"]:0.07016)[&label="78.8/52"]:0.059605,(((USW07204:0.080131,'GHEC01009306.1_TSA':0.090052)[&label="100/100"]:0.182123,USW07207:0.286927)[&label="100/100"]:0.228735,('GAGW01007749.1_TSA':0.114782,WZH63115:0.017015)[&label="100/100"]:0.611663)[&label="25.8/33"]:0.09451)[&label="86/33"]:0.091201,ND_230249:0.514593)[&label="99.5/98"]:0.250631,'GAIR01011407.1_TSA':0.859739)[&label="97.1/92"]:0.197878,USW07206:1.00392)[&label="39.6/52"]:0.106195,(XAX95852:0.0365,XAX95850:0.059156)[&label="100/100"]:0.93724)[&label="95.9/90"]:0.244608,(((((USW07208:0.322696,(WGH72997:0.290936,(XCO56025:0.324357,WZH62088:0.420967)[&label="71.5/74"]:0.07986)[&label="96.2/90"]:0.092404)[&label="94.8/94"]:0.112312,USW07210:0.724135)[&label="99.8/100"]:0.276907,USW07209:1.063617)[&label="99/100"]:0.248091,'GFVP01007274.1_TSA':0.799554)[&label="86.9/85"]:0.215872,WWB00173:0.754652)[&label="99/100"]:0.318806)[&label="100/100"]:1.681389)[&label="94.9/90"]:0.212703,'GHZM01115244.1':1.801157)[&label="54.4/39"]:0.041815,((((XDO01617:1.093449,((XDO01615:0.575942,XDO01613:0.53697)[&label="100/100"]:0.46759,WPV08068:0.913176)[&label="35.9/49"]:0.087719)[&label="92.9/95"]:0.244948,((ND_141048:0.743678,ND_136158:0.924611)[&label="87.6/89"]:0.277718,ND_128456:0.557075)[&label="100/100"]:0.878003)[&label="67.8/65"]:0.133816,USW07197:1.49477)[&label="92.1/89"]:0.170904,'GHZM01131186.1':1.699702)[&label="95.8/74"]:0.290856)[&label="91.5/62"]:0.110133,((((((('GBTA01002218.1':0.322221,'GBTA01054149.1':0.316826)[&label="99.8/100"]:0.329268,'GDXN01051862.1':0.892991)[&label="84.9/81"]:0.096346,(('GBHO01039923.1_ciliate':0.578073,USW07198:0.510313)[&label="52.6/58"]:0.067218,'GFJG01059483.1':0.72338)[&label="99.7/100"]:0.213167)[&label="93.9/88"]:0.171075,'GHZM01206470.1':0.731428)[&label="100/100"]:0.843055,((ND_401447:1.138478,('GGIK01050282.1_TSA':0.944979,'k79_16623_flag1_multi111.0000_len3203_ERR9846877':0.849959)[&label="63.2/56"]:0.14089)[&label="37/53"]:0.137232,(WZL61394_Kasler_Point_virus:0.214711,WZL61396_Wildcat_Canyon_virus:0.185321)[&label="100/100"]:0.888756)[&label="95/82"]:0.185346)[&label="68.5/70"]:0.138198,(ND_070387:1.247024,((USW07199:0.676755,'GACI01004785.1_TSA':0.537944)[&label="97.7/98"]:0.284109,WYW91238:0.83045)[&label="100/100"]:0.598167)[&label="95.2/98"]:0.21362)[&label="97.8/98"]:0.214026,'GFZV01012939.1_TSA':1.482861)[&label="85/77"]:0.136752)[&label="81.4/61"]:0.147837,('GBNA01013951.1':0.939354,'GEYJ01092710.1':0.832379)[&label="99.7/100"]:0.374794)[&label="99.1/85"]:0.246906,(XDO01625:0.433357,'GACI01002316.1_TSA':0.551619)[&label="100/100"]:0.510964)[&label="99.8/100"]:0.31383,(XDO01621:0.062046,XDO01619:0.115405)[&label="100/100"]:0.576184)[&label="100/100"]:0.460251,XDO01623:0.336366);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
